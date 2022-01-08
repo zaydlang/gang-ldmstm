@@ -173,7 +173,6 @@ nintendo_logo:
     LOOP_BODY_8192
 .endm
 
-@ test macro for concat that does not use ldm/stm
 @ relies on r12 pointing to the bottom of the dma stuffs section in the literal pool
 @ this macro is kinda weird so here's an explanation:
 @ itll concatenate two halfwords stored in low_reg and high_reg. first, it uses DMA
